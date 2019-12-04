@@ -1,0 +1,19 @@
+{
+  "name": "eva",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "mysql2": "^2.0.1",
+    "sequelize": "^5.21.2"
+  },
+  "scripts": {
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "devDependencies": {
+    "graphpack": "^1.0.9",
+    "sequelize-cli": "^5.5.1"
+  }
+}
